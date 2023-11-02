@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: OxygenDeprivation
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 9a265510ea5edcd41a6d04b30454ea17, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 4890085278179872738, guid: dcae7f3b8cb43254697023c8d0a5fecd, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 60fb7bbfb523b15458f4bdc074bbf196, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 8900000, guid: 9e6c5f0e069df4c47a3ffeb1ef4936bf, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: b7b81ebbe36017a489fa9efb826111de, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: ee148e281f3c41c5b4ff5f8a5afe5a6c, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 5edd51db1a681f947a99246f5c23c923, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2fd6421f253b4ef1a19526541f9ffc0c, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: 0b4d14158efca2b4aa691b18b8a58e67, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 1505f88752c96b943896f32982a5c39a, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    instantiationMode: 1
+  templatePipeline: {fileID: 0}
+  addToDefaults: 0

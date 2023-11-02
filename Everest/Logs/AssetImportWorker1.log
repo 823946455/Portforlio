@@ -1,0 +1,897 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 8108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Nick/Everest
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56320
+Successfully changed project path to: C:/Users/Nick/Everest
+C:/Users/Nick/Everest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17792] Host "[IP] 192.168.0.119 [Port] 0 [Flags] 2 [Guid] 2353918563 [EditorId] 2353918563 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5DSC1OA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17792] Host "[IP] 192.168.0.119 [Port] 0 [Flags] 2 [Guid] 2353918563 [EditorId] 2353918563 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5DSC1OA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 183.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nick/Everest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     4054 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008122 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 174.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1361ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (977ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (175ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009276 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nick\Everest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nick\Everest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2003ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1609ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (500ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.9 KB). Loaded Objects now: 3893.
+Memory consumption went from 139.2 MB to 139.1 MB.
+Total: 9.222600 ms (FindLiveObjects: 1.315000 ms CreateObjectMapping: 0.773100 ms MarkObjects: 6.849900 ms  DeleteObjects: 0.281500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 117816.896849 seconds.
+  path: Assets/BaseCampBeta/Materials
+  artifactKey: Guid(0ad4d6e9c8c4dd84ebf8eefca276eb9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta/Materials using Guid(0ad4d6e9c8c4dd84ebf8eefca276eb9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '499e764376975a8c0f998127f6640f70') in 0.204414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Everest2
+  artifactKey: Guid(98e065c1f920ade41bf32fa7ddb8ef1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest2 using Guid(98e065c1f920ade41bf32fa7ddb8ef1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5086c88aacad5763d7f40e87fdfe1b68') in 0.027693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scenes/Everest3/TMP - Text Component Icon.psd
+  artifactKey: Guid(dab94bab8523a344e85097e35d38480e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/TMP - Text Component Icon.psd using Guid(dab94bab8523a344e85097e35d38480e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52761f4a7a25adc3209e8b730123b302') in 0.414164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/BaseCampBeta/mountain_Snow_000.mat
+  artifactKey: Guid(dbede0604dbbc304e93838b1cfb77087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta/mountain_Snow_000.mat using Guid(dbede0604dbbc304e93838b1cfb77087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b0afdf5089f50db6fea35da0045c3b2') in 0.256559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Oxygen.cs
+  artifactKey: Guid(f78907367c2134946ab5b5282025b526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Oxygen.cs using Guid(f78907367c2134946ab5b5282025b526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '822f334dd4ec8e367595d79d9330f073') in 0.071227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/BaseCampBeta/mountain_Snow_000.fbx
+  artifactKey: Guid(a71894684d0fbb64b83e6d00a998ee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta/mountain_Snow_000.fbx using Guid(a71894684d0fbb64b83e6d00a998ee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acd2b9763ade6a7adb9bd6c47e2e6be6') in 0.226279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scenes/Everest2/Materials
+  artifactKey: Guid(e0873635f91101f4d9157e5b88c14757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest2/Materials using Guid(e0873635f91101f4d9157e5b88c14757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60357a3bc0d89aefef7727478c9c9990') in 0.046311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Scenes/Everest3/mountain_Snow_000.mat
+  artifactKey: Guid(4f3a26a681226804392a9dad7d0ea931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/mountain_Snow_000.mat using Guid(4f3a26a681226804392a9dad7d0ea931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cdd52461d841c12e63bc15924912ab6') in 0.169076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/BaseCampBeta
+  artifactKey: Guid(b14969157ef91c34a8dab75766e71f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta using Guid(b14969157ef91c34a8dab75766e71f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ec8bec14f795072119f120cbca6a7e9') in 0.078842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Everest3/mountain_Snow_000_Normal.tga
+  artifactKey: Guid(0d630734af5610140a1f7a13870b54c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest3/mountain_Snow_000_Normal.tga using Guid(0d630734af5610140a1f7a13870b54c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5b9f1d54199463db958fe05ab18bada') in 0.129845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Everest3/Materials
+  artifactKey: Guid(3b384e08d76ab0749ad62b6bb5fb8886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest3/Materials using Guid(3b384e08d76ab0749ad62b6bb5fb8886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ad3e428ecb328bfb890b3dd011b703f') in 0.033361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/Everest2/Mat_SnowJacket.mat
+  artifactKey: Guid(6ce2cd0f2a146484fabadb9dc3f1ae14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest2/Mat_SnowJacket.mat using Guid(6ce2cd0f2a146484fabadb9dc3f1ae14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad0e74d4d883574f39cdc1e6a22ec05b') in 0.116169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Snow Mountain/Scenes/SnowMountains.unity
+  artifactKey: Guid(80a7b5808b43ae245bc2c97ce3cfc017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Snow Mountain/Scenes/SnowMountains.unity using Guid(80a7b5808b43ae245bc2c97ce3cfc017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ef6da337e023ac0d1766bf56f1db8c6') in 0.069400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/Everest2/TMP - Font Asset Icon.psd
+  artifactKey: Guid(869a6faadeb02e140a3abf5c20c649ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest2/TMP - Font Asset Icon.psd using Guid(869a6faadeb02e140a3abf5c20c649ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '965d07092e8c41ae4ad9404b0eb1c3ee') in 0.264288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/BaseCampBeta/Materials/defaultMat.mat
+  artifactKey: Guid(421560ab41a339946bce42ef0162f616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta/Materials/defaultMat.mat using Guid(421560ab41a339946bce42ef0162f616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd592d43927cea2b26756343f86d59d09') in 0.072151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Everest2/Mat_Lens.mat
+  artifactKey: Guid(5672938816a5fb14f8715e338e798da9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/Mat_Lens.mat using Guid(5672938816a5fb14f8715e338e798da9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b357699e08f408850f3a390a308e503') in 0.066298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Everest3/mountain_Snow_000.fbx
+  artifactKey: Guid(b6a4faa77a369d743902406caf12c92b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest3/mountain_Snow_000.fbx using Guid(b6a4faa77a369d743902406caf12c92b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92a7d97ee7e9e7926a1aad939c2e8084') in 0.180006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/OxygenDeprivation.scenetemplate
+  artifactKey: Guid(fa293115e6c11924b8fadbdea1968691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivation.scenetemplate using Guid(fa293115e6c11924b8fadbdea1968691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '632fcf240fc2b23146bb238662cdec55') in 0.452383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scenes/Everest2/mountain_Snow_000.mat
+  artifactKey: Guid(2c7b22c09d031ce4a8fc628bf409533e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest2/mountain_Snow_000.mat using Guid(2c7b22c09d031ce4a8fc628bf409533e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd28e12e2415dabf268a4acab52a64459') in 0.163939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HypothermiaAlpha/mountain_Snow_000_Normal.tga
+  artifactKey: Guid(e002b4be4c96d2c498fef1a214c297ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha/mountain_Snow_000_Normal.tga using Guid(e002b4be4c96d2c498fef1a214c297ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06c1b9c98736b55b786b9c708c0d8e4f') in 0.142455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Everest2/Materials/defaultMat.mat
+  artifactKey: Guid(df4f6175c4739a8489d3613cc2d4a88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest2/Materials/defaultMat.mat using Guid(df4f6175c4739a8489d3613cc2d4a88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '025e473bd8612ab95815df2a86526486') in 0.056824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Scenes/Everest3/Mountaineer.prefab
+  artifactKey: Guid(96b4a5133c5cf594f84ed4602fd0f779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/Mountaineer.prefab using Guid(96b4a5133c5cf594f84ed4602fd0f779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9762d7ba10b2f9561543103ebbd6b985') in 0.165812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/Everest2/Mountaineer.prefab
+  artifactKey: Guid(80c9c05062650f34dab5d6a8a58d8db4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest2/Mountaineer.prefab using Guid(80c9c05062650f34dab5d6a8a58d8db4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f12212d08555b2fce4823623331edbf2') in 0.073434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/HypothermiaAlpha/003_Sunrise_SkyboxVol2.hdr
+  artifactKey: Guid(24bb065c95c47e741a87605d573a6836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha/003_Sunrise_SkyboxVol2.hdr using Guid(24bb065c95c47e741a87605d573a6836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fc3e9f994a0cc1028d3ad3c7af966dc') in 0.085441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/OxygenDeath.cs
+  artifactKey: Guid(af03f0a38427b8348bba77d8c426ef2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeath.cs using Guid(af03f0a38427b8348bba77d8c426ef2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae0887749dfa3d55e16ab08b94a0f0e0') in 0.041861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/windSafe.mp3
+  artifactKey: Guid(8e9465e4aa88ba4428dfec7f5b6e0782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/windSafe.mp3 using Guid(8e9465e4aa88ba4428dfec7f5b6e0782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae220ff964d8cb82e51dc7d31eaec4a2') in 0.472466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/HypothermiaAlpha/defaultMat.mat
+  artifactKey: Guid(79fea78a420a74d49b357d975dabb5b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha/defaultMat.mat using Guid(79fea78a420a74d49b357d975dabb5b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a7ee10540ff5766d38e8f0a3fe3d537') in 0.095665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scenes/LoadEverest2.cs
+  artifactKey: Guid(ec4c2817180d1074ba57613c080008cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/LoadEverest2.cs using Guid(ec4c2817180d1074ba57613c080008cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ea499e60619c2b9c5cfb8ca5dfeade5') in 0.052478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Mountaineer.cs
+  artifactKey: Guid(40440ef4c25b94848a5963205ff7524c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mountaineer.cs using Guid(40440ef4c25b94848a5963205ff7524c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb67d4646f039a2406ce1a49da5bef7b') in 0.054223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Everest3/defaultMat.mat
+  artifactKey: Guid(2b6a5c8b29b9387448f31b5a10e58f2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest3/defaultMat.mat using Guid(2b6a5c8b29b9387448f31b5a10e58f2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b538d7052fbeac8ba08f8190e68afe3') in 0.056865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/OxygenDeprivationAlpha/mountain_Snow_000.mat
+  artifactKey: Guid(dad9d9fa64da7d749bb45b81c9464d7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationAlpha/mountain_Snow_000.mat using Guid(dad9d9fa64da7d749bb45b81c9464d7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1356e6cdd4cec1453f7883d041f35b4') in 0.139596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/OxygenDeprivationAlpha/SnowMountainsSettings.lighting
+  artifactKey: Guid(71e1e9fca32a2324c9b18c8523867d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationAlpha/SnowMountainsSettings.lighting using Guid(71e1e9fca32a2324c9b18c8523867d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ff0a8b68f261dafe75719ca57042a29') in 0.091579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/WindDeathScreen.unity
+  artifactKey: Guid(f098b524761f7e54d9f710fe5b54dd12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WindDeathScreen.unity using Guid(f098b524761f7e54d9f710fe5b54dd12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '753d152fbb35e1491c0decc00f812527') in 0.094020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/Everest3/mountain_Snow_000_Aldedo.tga
+  artifactKey: Guid(b184c0d31d8010b43a8bd106e9968ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/mountain_Snow_000_Aldedo.tga using Guid(b184c0d31d8010b43a8bd106e9968ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea8c9ae2641c759fc10d34339e71bafa') in 0.124568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/OxygenDeprivationAlpha/whitePlane.mat
+  artifactKey: Guid(b3231aa095072564ebf86760f4030432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationAlpha/whitePlane.mat using Guid(b3231aa095072564ebf86760f4030432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef3d9e8157ce41659ee78993647761df') in 0.058765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/OxygenDeprivationAlpha/TMP - Text Component Icon.psd
+  artifactKey: Guid(9879379a71f96d241986a7d152cd6ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationAlpha/TMP - Text Component Icon.psd using Guid(9879379a71f96d241986a7d152cd6ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b3422f48b656536408721385ddc4800') in 0.110905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/HypothermiaAlpha/Materials/defaultMat.mat
+  artifactKey: Guid(85c27331fdee8574b9b76010826507db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha/Materials/defaultMat.mat using Guid(85c27331fdee8574b9b76010826507db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c81ea41d439810b0348910c7da5de46') in 0.070819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Everest2/mountain_Snow_000_Normal.tga
+  artifactKey: Guid(406029d491eb8764e9913858277948d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/mountain_Snow_000_Normal.tga using Guid(406029d491eb8764e9913858277948d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5900bb44b6f1d03e2e6390e6b46335dd') in 0.144040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Everest3
+  artifactKey: Guid(b56adde58d2197849be7effb0c59e8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest3 using Guid(b56adde58d2197849be7effb0c59e8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92d5c6fa5f900154c9057b6788c8d054') in 0.049713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/HypothermiaBeta/mountain_Snow_000.mat
+  artifactKey: Guid(8ea550cdff43c404b93b440f51b721bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaBeta/mountain_Snow_000.mat using Guid(8ea550cdff43c404b93b440f51b721bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff89c52462fc4b0a9cd2e9b62b58cb66') in 0.178917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/HypothermiaBeta/TMP - Text Component Icon.psd
+  artifactKey: Guid(d2b0636cf9749734890426e87a9ca029) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaBeta/TMP - Text Component Icon.psd using Guid(d2b0636cf9749734890426e87a9ca029) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18d88239e878e050e93d27ddde13b840') in 0.069030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HypothermiaAlpha/enviromentMap.mat
+  artifactKey: Guid(7dffc51042acaff45b071311aa51bbbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha/enviromentMap.mat using Guid(7dffc51042acaff45b071311aa51bbbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0821a418883dfb329c4176a596010c52') in 0.068242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/Everest3/003_Sunrise_SkyboxVol2.hdr
+  artifactKey: Guid(b7b91dd9daaf25640b90bf5c0d451276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/003_Sunrise_SkyboxVol2.hdr using Guid(b7b91dd9daaf25640b90bf5c0d451276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cfdab215a1af8e589e319e2fba783b3') in 0.104186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/HypothermiaBeta.cs
+  artifactKey: Guid(3706ea25b13ca764fa047f2a84830542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaBeta.cs using Guid(3706ea25b13ca764fa047f2a84830542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b8c6d2ddd28a0cc7e3cded8481a04d9') in 0.081434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/HypothermiaBeta/mountain_Snow_000_Aldedo.tga
+  artifactKey: Guid(63d74ddb69b9c19419b1cc72d42b798f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaBeta/mountain_Snow_000_Aldedo.tga using Guid(63d74ddb69b9c19419b1cc72d42b798f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fabba67befa8113381632ce708daee8e') in 0.095284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Hypothermia.unity
+  artifactKey: Guid(a9c941aec30f1ba4eafa5ee4a5cf3568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hypothermia.unity using Guid(a9c941aec30f1ba4eafa5ee4a5cf3568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4488f55763bd1674b85eca8be4b7d3eb') in 0.034015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/BaseCampBeta.unity
+  artifactKey: Guid(d775bbc304e5b574b9ea76d0b773e3f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta.unity using Guid(d775bbc304e5b574b9ea76d0b773e3f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0245d6bdeeb4e67906b5b36cc0762d4') in 0.049856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BaseCampBeta/defaultMat.mat
+  artifactKey: Guid(5bf2675295024b34c8ec25103f53ebab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta/defaultMat.mat using Guid(5bf2675295024b34c8ec25103f53ebab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3c2df362d4906ca1a6d273e71b03484') in 0.055634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/HypothermiaAlpha/mountain_Snow_000.fbx
+  artifactKey: Guid(9508642f1a9cc344ea51806803cade40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha/mountain_Snow_000.fbx using Guid(9508642f1a9cc344ea51806803cade40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '498d38dabf68348ab6573188b2c6aff9') in 0.171364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/OxygenDeprivationBeta/mountain_Snow_000.fbx
+  artifactKey: Guid(7352d6efe451fe147891f1a71899bf41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationBeta/mountain_Snow_000.fbx using Guid(7352d6efe451fe147891f1a71899bf41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '431e5cc0824957f656c747be7507a345') in 0.128149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/BaseCampBeta/003_Sunrise_SkyboxVol2.hdr
+  artifactKey: Guid(cfff0ac4ea5565344afcec35c888fc37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta/003_Sunrise_SkyboxVol2.hdr using Guid(cfff0ac4ea5565344afcec35c888fc37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '382a232f633e761b87dc3eac74c6f64f') in 0.084230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Everest.cs
+  artifactKey: Guid(a87592583c74dd84fb647f0eea310ab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest.cs using Guid(a87592583c74dd84fb647f0eea310ab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d4307cb15eaa6e78aeeef972301e918') in 0.053939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/OxygenDeprivationBeta/Materials
+  artifactKey: Guid(8e7ee56c6d0c61a4580129ecbd704838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationBeta/Materials using Guid(8e7ee56c6d0c61a4580129ecbd704838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce503605b49eb67a192342cd482d096d') in 0.078918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/OxygenDeprivationBeta/mountain_Snow_000.mat
+  artifactKey: Guid(50058a776b7261e4593df00fa50ca6f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationBeta/mountain_Snow_000.mat using Guid(50058a776b7261e4593df00fa50ca6f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b7c99e6f0a44d744e52c2c23ebc52ec') in 0.153193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Everest Directions.unity
+  artifactKey: Guid(40476527e28447147bdb5dc080811bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest Directions.unity using Guid(40476527e28447147bdb5dc080811bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f8910316a619645f7a8f262c4636377') in 0.051615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/BaseCampAlpha.scenetemplate
+  artifactKey: Guid(0588c2c3054d07e4da08555535a3cfd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampAlpha.scenetemplate using Guid(0588c2c3054d07e4da08555535a3cfd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a0d9a925fc7b006ae7a5fbaeb1d9e3f') in 0.224799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/OxygenDeprivationBeta/mountain_Snow_000_Normal.tga
+  artifactKey: Guid(4146b6d0c9a30364f90228fc56142439) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationBeta/mountain_Snow_000_Normal.tga using Guid(4146b6d0c9a30364f90228fc56142439) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '460ef3465602a12e5c9015cf0c39bdf2') in 0.144793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/WinScreen.unity
+  artifactKey: Guid(74eaafe029b2973469ad5fae75eaac74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WinScreen.unity using Guid(74eaafe029b2973469ad5fae75eaac74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ae8e7d7f2dc75d3bd31f5b2cc2bde47') in 0.067355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/WilhelmScream.mp3
+  artifactKey: Guid(5a200b66c4eda854ab639fbe1acd7690) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WilhelmScream.mp3 using Guid(5a200b66c4eda854ab639fbe1acd7690) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e17402ec15d983500b3cf59e42f91660') in 0.352567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Scenes/Everest2/003_Sunrise_SkyboxVol2.hdr
+  artifactKey: Guid(2f9cbfce4a5368349b9b4df95b0b8ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest2/003_Sunrise_SkyboxVol2.hdr using Guid(2f9cbfce4a5368349b9b4df95b0b8ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54246ef333d648a858d47356d2200371') in 0.103398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Everest2/enviromentMap.mat
+  artifactKey: Guid(6b7e16554e6d492429fc07d043a5854f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/enviromentMap.mat using Guid(6b7e16554e6d492429fc07d043a5854f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c935d9614a3d04760d59e8e9780c69e9') in 0.153618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Everest3/Mat_SnowJacket.mat
+  artifactKey: Guid(e75e3df189912854bb2aa41811ba226d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/Mat_SnowJacket.mat using Guid(e75e3df189912854bb2aa41811ba226d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5233010b159cac044c7fd5ba05fbb54a') in 0.054522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Scenes/Everest3/Materials/defaultMat.mat
+  artifactKey: Guid(670146dd32bc9ed4fa0f343db5927b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/Materials/defaultMat.mat using Guid(670146dd32bc9ed4fa0f343db5927b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca0073ff39adeac30684f9892adadd0c') in 0.061909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Everest2.cs
+  artifactKey: Guid(45f20215639bde34c85713be3f16d8d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2.cs using Guid(45f20215639bde34c85713be3f16d8d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6eae73bce08a1007c918b03e90016c8b') in 0.044540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Everest2/Mat_SnowJacket.mat
+  artifactKey: Guid(5b8506e0a1d5aa745a757037270a67f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/Mat_SnowJacket.mat using Guid(5b8506e0a1d5aa745a757037270a67f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fe64241aa376018bed6fee6c05453be') in 0.049346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HypothermiaBeta/defaultMat.mat
+  artifactKey: Guid(f6cfffaf6aeaf8b40a765b82049cf6c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaBeta/defaultMat.mat using Guid(f6cfffaf6aeaf8b40a765b82049cf6c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5de8c1ed01a0f80dfcca3cbbb674d3e') in 0.103378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/BaseCampBeta/SnowMountainsSettings.lighting
+  artifactKey: Guid(b5e3666c87b101248a69bd082a710a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta/SnowMountainsSettings.lighting using Guid(b5e3666c87b101248a69bd082a710a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66491c0da2cad816d7a017504b79df5c') in 0.055294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/OxygenDeprivationAlpha/mountain_Snow_000_Aldedo.tga
+  artifactKey: Guid(0264976ecde72284eac98630f0b37455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationAlpha/mountain_Snow_000_Aldedo.tga using Guid(0264976ecde72284eac98630f0b37455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b58c116ac26d3e797ed0967decdd6275') in 0.076791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b707fb793fd60a56581099cf81a197e') in 0.064530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/OxygenDeprivationAlpha/Materials
+  artifactKey: Guid(4ba87a2c218daec4893559cc3ad6038b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationAlpha/Materials using Guid(4ba87a2c218daec4893559cc3ad6038b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39e4877ad3764bcccd33f6bc025ab7fc') in 0.062501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/OxygenDeprivationAlpha/003_Sunrise_SkyboxVol2.hdr
+  artifactKey: Guid(e4a0f39e00de9d64db0995dfd9c3dff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationAlpha/003_Sunrise_SkyboxVol2.hdr using Guid(e4a0f39e00de9d64db0995dfd9c3dff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '426893234dc8f08406c6e9538a753d16') in 0.079029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Scenes/Everest2/Mat_Lens.mat
+  artifactKey: Guid(2509d46499be6004d93670580ee51afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest2/Mat_Lens.mat using Guid(2509d46499be6004d93670580ee51afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a670653fef0524129ce01e7af3f0f3f') in 0.058001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Scenes/Everest3/Mat_Pants.mat
+  artifactKey: Guid(3a2796d4e6249414e9a78710c4eb29c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/Mat_Pants.mat using Guid(3a2796d4e6249414e9a78710c4eb29c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e96d37664989522d12d8f530aaa142e') in 0.063290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/HypothermiaAlpha/TMP - Font Asset Icon.psd
+  artifactKey: Guid(f51c4305cea694b479048e39838c40d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha/TMP - Font Asset Icon.psd using Guid(f51c4305cea694b479048e39838c40d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73e9a3caf47c721bb9219cdcde8ff9b6') in 0.147689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scenes/Everest3
+  artifactKey: Guid(0e9900c22ac882341a7adf952fa7e70d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3 using Guid(0e9900c22ac882341a7adf952fa7e70d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40911394eca32ef24d41ddf1b64a7a7e') in 0.049605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/OxygenDeprivationBeta/defaultMat.mat
+  artifactKey: Guid(bd2a43a539dba9d4f83d0c38eaef3caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationBeta/defaultMat.mat using Guid(bd2a43a539dba9d4f83d0c38eaef3caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4783f7748ccc2d7270aa47586ee93f34') in 0.077341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Everest3/TMP - Text Component Icon.psd
+  artifactKey: Guid(7607cd1f373745d418a106607514dd0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest3/TMP - Text Component Icon.psd using Guid(7607cd1f373745d418a106607514dd0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c4e5d1973cafd4e5d7d04697de9fe7c') in 0.129508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Everest3/003_Sunrise_SkyboxVol2.hdr
+  artifactKey: Guid(b4f343c78b97d6a4e8743c4d68d02456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest3/003_Sunrise_SkyboxVol2.hdr using Guid(b4f343c78b97d6a4e8743c4d68d02456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2285c1bfd84e8b4048ba36e1d005eb7f') in 0.118170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Everest2/mountain_Snow_000.fbx
+  artifactKey: Guid(a640493b7213bc8418a63d943848ae7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/mountain_Snow_000.fbx using Guid(a640493b7213bc8418a63d943848ae7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee66e0d179b207bd465fa90271f63025') in 0.137735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Scenes/Everest3/TMP - Font Asset Icon.psd
+  artifactKey: Guid(3f79e6f4764cc0b409a90c317115f36a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/TMP - Font Asset Icon.psd using Guid(3f79e6f4764cc0b409a90c317115f36a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e6cc73a90155c20455e4f68b0204584') in 0.104331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/Everest3/mountain_Snow_000_Normal.tga
+  artifactKey: Guid(f3adfe715aa580e43bc7af94df2a2d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/mountain_Snow_000_Normal.tga using Guid(f3adfe715aa580e43bc7af94df2a2d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30804a0c90acb1f880fde7d373e8e44f') in 0.138716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/OxygenDeprivationBeta/SnowMountainsSettings.lighting
+  artifactKey: Guid(ed3441ae54087ff4891b78b47ec42f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationBeta/SnowMountainsSettings.lighting using Guid(ed3441ae54087ff4891b78b47ec42f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71c52a8d6ea3e76edd972d40a5423f94') in 0.065124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/HypothermiaBeta/Materials/defaultMat.mat
+  artifactKey: Guid(9296653915359784d90c2785361a7d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaBeta/Materials/defaultMat.mat using Guid(9296653915359784d90c2785361a7d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4263e9d6873d6cdd47ab530da71a73b') in 0.107127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HypothermiaAlpha.scenetemplate
+  artifactKey: Guid(403c4ca74f24ed34aa47e207e9142f47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha.scenetemplate using Guid(403c4ca74f24ed34aa47e207e9142f47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4fb0c00274f1e0b01f9c6c0227b3696') in 0.215089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/HypothermiaAlpha/Materials
+  artifactKey: Guid(6eb597edb2e6ce6468da0bfb4cc1e114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha/Materials using Guid(6eb597edb2e6ce6468da0bfb4cc1e114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '212ab8e5225c40515472b7217c08be97') in 0.048078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Scenes/Everest3/Materials
+  artifactKey: Guid(1de99f1bda091a046b725ea774eb0748) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/Materials using Guid(1de99f1bda091a046b725ea774eb0748) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '821c729e1575fc7f8462f9fdaaecd47c') in 0.047386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/OxygenDeprivationAlpha/TMP - Font Asset Icon.psd
+  artifactKey: Guid(5d3f3e551455cce4a9cc9df71e378ae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OxygenDeprivationAlpha/TMP - Font Asset Icon.psd using Guid(5d3f3e551455cce4a9cc9df71e378ae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c183b65db40e0f9769e3f5b29a30bc0') in 0.113750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sound.cs
+  artifactKey: Guid(b8766949bab06c2408d3b48913db8d0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sound.cs using Guid(b8766949bab06c2408d3b48913db8d0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4654ff6f57d95af979857f8be073644d') in 0.038311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Everest3/Mat_Pants.mat
+  artifactKey: Guid(e390a93029c232b4b9ee603f826f4756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest3/Mat_Pants.mat using Guid(e390a93029c232b4b9ee603f826f4756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b48c7eae4cbceb1b6b635f9e796a610') in 0.028234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Everest2/003_Sunrise_SkyboxVol2.hdr
+  artifactKey: Guid(7ce7ab1b8baaa47489a6073cdd959c68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/003_Sunrise_SkyboxVol2.hdr using Guid(7ce7ab1b8baaa47489a6073cdd959c68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0a570b89be8da6937a6f45da49fe2d7') in 0.047542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LoadEverest3.cs
+  artifactKey: Guid(2660d33ae70f0db46934d8ea996264e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LoadEverest3.cs using Guid(2660d33ae70f0db46934d8ea996264e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c81bc2a7822d73b7bff833adff44934') in 0.021855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Scenes/Everest3/Mat_Sticks.mat
+  artifactKey: Guid(b6dfa9c2746c44140ad9a80034c1e883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Everest3/Mat_Sticks.mat using Guid(b6dfa9c2746c44140ad9a80034c1e883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aae3cf525639276cb3e342d4c7d6baf8') in 0.028470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Everest2/mountain_Snow_000.prefab
+  artifactKey: Guid(79f1d06a9aa59e741b44ae81aaaca1e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/mountain_Snow_000.prefab using Guid(79f1d06a9aa59e741b44ae81aaaca1e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0417eff6972ad5b7aab2e5f6e6d4fbe') in 0.027269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Everest2/Materials
+  artifactKey: Guid(802d974187852ad47ad1d2dee9c039e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/Materials using Guid(802d974187852ad47ad1d2dee9c039e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '015be50cbcbfbdc63a7681b8821dc84b') in 0.014487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BaseCampBeta/whitePlane.mat
+  artifactKey: Guid(db6e1399f59d01f4b825fbe97cab3056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BaseCampBeta/whitePlane.mat using Guid(db6e1399f59d01f4b825fbe97cab3056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b71efd9435ea2dfc02a50aab7fd52b6') in 0.016958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Everest2/defaultMat.mat
+  artifactKey: Guid(f6523fe362d18924d919ce9bcec30147) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/defaultMat.mat using Guid(f6523fe362d18924d919ce9bcec30147) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6c285fd9a27addeab22031f310a68ce') in 0.018759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HypothermiaBeta/Materials
+  artifactKey: Guid(f9466bbd51efaec43b16eebdec9cba4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaBeta/Materials using Guid(f9466bbd51efaec43b16eebdec9cba4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bff6133655315b3437e67749bc1b97a8') in 0.031882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AudioManager.cs
+  artifactKey: Guid(01ea62a7f1adc8741ab8a3c28101fa6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AudioManager.cs using Guid(01ea62a7f1adc8741ab8a3c28101fa6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b8613ac38eb6f897270af681abeea1d') in 0.018573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HypothermiaBeta/mountain_Snow_000.fbx
+  artifactKey: Guid(9f2468f8a99a39a4e96936a55a1f3540) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaBeta/mountain_Snow_000.fbx using Guid(9f2468f8a99a39a4e96936a55a1f3540) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bd548e35603e7b8da6bfa0d96102cfe') in 0.053218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Everest2/Mountaineer.prefab
+  artifactKey: Guid(e3ae6447baa7ba7489d980f0a8683c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Everest2/Mountaineer.prefab using Guid(e3ae6447baa7ba7489d980f0a8683c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a074fcd3cb2767a8acebad3802d787ba') in 0.028408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HypothermiaAlpha.cs
+  artifactKey: Guid(9b13cfcde45f92b4eb90f2d106ded796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HypothermiaAlpha.cs using Guid(9b13cfcde45f92b4eb90f2d106ded796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9422ee7bb3b3b5e1f3d560d4286b6e8') in 0.020828 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.0 KB). Loaded Objects now: 3898.
+Memory consumption went from 70.5 MB to 70.4 MB.
+Total: 7.983400 ms (FindLiveObjects: 0.593100 ms CreateObjectMapping: 0.724700 ms MarkObjects: 6.434100 ms  DeleteObjects: 0.229600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
